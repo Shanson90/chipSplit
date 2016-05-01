@@ -1,0 +1,147 @@
+/* Elements */
+body {
+  background-color: black;
+  background-image: url("http://www.emoticonswallpapers.com/background/thumb/pattern/background-pattern-009.jpg");
+  color: #000000;
+  margin: 0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
+h1,.h1{font-size:45px;line-height:48px}
+h2,.h2{font-size:36px;line-height:42px}
+h3,.h3{font-size:28px;line-height:36px}
+h4,.h4{font-size:24px;line-height:25px}
+h5,.h5{font-size:20px;line-height:24px}
+h6,.h6{font-size:18px;line-height:24px}
+
+a:hover, a:focus {
+  text-decoration:bold;
+  color:#dd0404;
+}
+
+a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+table a {
+  font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial;
+  text-transform: none;
+  color:#003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+}
+
+table {
+  border:solid;
+  border-radius: 5px;
+  border-width: 5px;
+  text-align: left;
+}
+
+/* Classes */
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    background-color:white;
+}
+
+table.tableofpics {
+  width:90%; 
+  margin-left:5%; 
+  margin-right:5%;
+  color:black;
+  float:all;
+  text-align:center;
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+table.tableoffiles {
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  color:black;
+  float:all;
+  text-align:left;
+  font-size:1em;
+  border:solid;
+  border-radius:5px;
+}
+
+.img_med {
+  width:100%;
+  height:auto;
+}
+
+table thead th{
+  color:#dd0404;
+}
+
+/* IDs */
+#footer {
+  padding:0px;
+  height:50px;
+  position:fixed;
+  bottom: 0px;
+  width:100%;
+  font-size: 28px;
+  line-height: 150%;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+#intro {
+  font-size: 4.2em;
+  top: 200px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+#disqus_thread {
+  background-color: white;
+  border:solid;
+  border-radius: 5px;
+  border-width: 5px; 
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%; 
+}
+
+#med_list {
+  font-size: 3.2em;
+  top: 200px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 15%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

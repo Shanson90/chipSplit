@@ -1,0 +1,34 @@
+<!Doctype HTML>
+<html lang="en-US">
+<head>
+	<title>ChipSplit</title>
+
+	<!--Icon next to page title-->
+	<link rel="icon" type="image/png" href="sitelogo.png" />
+	<link rel="stylesheet" type="text/css" href="chipsplit.css">
+    <script type="text/javascript" src="chipsplit.js"></script>
+</head>
+
+<body>
+	<p>How many are playing?</p>
+	<input type="number" id="numPlayers" />
+	
+	<p>If you want buybacks, how many?</p>
+	<input type="number" id="buyBacks" />
+	
+	<p>How many different chip colors do you have?</p>
+	<input type="number" id="colors"/>
+	
+	<p>What's the buy in?</p>
+	<input type="number" id="buyIn"/>
+	
+	<p>What time of game are you playing?</p>
+	<select id="gameType">
+		<option value="cash">Cash Game</option>
+		<option value="tournament">Tournament Style</option>
+	</select>
+	
+	<div class="button">
+		<button type="button" onclick="chipMaker()">Split!</button>
+	</div>    
+</body>
